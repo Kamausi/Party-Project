@@ -1,0 +1,13 @@
+UNTITLED PARTY — PLAYABLE WEB BUILD
+
+Extract the archive, then serve the web directory through a local web server.
+For example: cd web && python3 -m http.server 8080
+Open http://localhost:8080 in a browser.
+
+For hosting, deploy the contents of web/ at the root of an HTTPS static site.
+Do not double-click index.html: the game uses modules, local assets, and browser storage.
+One successful online installation caches the full game for offline reuse.
+
+This is a local 4–6-player vertical slice with CPU players and six minigames.
+It is not an online multiplayer or native App Store/Steam package.
+All creative names remain provisional.
